@@ -345,8 +345,9 @@ hr{
     border-radius: 10px;
     background-image: url(/images/top-banner.png);
     padding-bottom: 400px;
-    background-position: right -6em top 200px;
+    background-position: right -5em top 250px;
     background-repeat: no-repeat;
+    background-size: 500px;
     }
 
     .player-profile{
