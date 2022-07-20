@@ -343,11 +343,6 @@ hr{
     width: 80%;
     margin: 20px auto;
     border-radius: 10px;
-    background-image: url(top-banner.png);
-    padding-bottom: 400px;
-    background-position: right -5em top 250px;
-    background-repeat: no-repeat;
-    background-size: 500px;
     }
 
     .player-profile{
@@ -394,21 +389,26 @@ hr{
         border: 0.3px solid gray;
     }
 
-    .player-banner{
-        display: none;
-        left: -150px;
-        margin-top: 80px;
+    .player-banner img{
+        width: 352px;
+        height: 400px;
     }
 
-    .ball{
-        top: 460px;
+    player{
+        transition: none;
+    }
+
+    .player-profile:hover .player{
+        transform: none;
     }
 
     .player-profile:hover .ball{
-    transform: translate(100px, -120px);
+        transform: none;
     }
 
-
+    .ball{
+        transition: none;
+    }
 
     .news-tray{
         width: 100%;
@@ -489,15 +489,10 @@ main{
     
 header{
     max-width: 734px;
-    background-image: url(top-banner.png);
-    background-position: right -8em bottom -280px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .player-profile{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
 }
 
 .player-details{
@@ -506,8 +501,33 @@ header{
 }
 
 .player-banner{
+    width: 80%;
+    float: right;
+    top: 80px;
+    left: 50px;
+    align-items: center;
+}
+
+.player-banner img{
+    width: 400px;
+    height: 500px;
+}
+
+player{
+    transition: none;
+}
+
+.player-profile:hover .player{
+    transform: none;
+}
+
+.player-profile:hover .ball{
+    transform: none;
+}
+
+.ball{
     display: none;
-    width: 100%;
+    transition: none;
 }
 
 .player-details h1{
@@ -518,9 +538,6 @@ header{
     font-size: 14px;
 }
 
-.player-profile:hover .ball{
-    transform: translate(140px, -100px);
-}
 
 .news-tray{
     width: 100%;
