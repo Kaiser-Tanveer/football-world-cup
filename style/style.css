@@ -343,6 +343,10 @@ hr{
     width: 80%;
     margin: 20px auto;
     border-radius: 10px;
+    background-image: url(/images/top-banner.png);
+    padding-bottom: 400px;
+    background-position: right -6em top 200px;
+    background-repeat: no-repeat;
     }
 
     .player-profile{
@@ -358,6 +362,8 @@ hr{
         width: 80%;
         margin-bottom: 50px;
         margin: auto;
+        padding-bottom: 
+        50px;
     }
 
     .player-details h1{
@@ -388,6 +394,7 @@ hr{
     }
 
     .player-banner{
+        display: none;
         left: -150px;
         margin-top: 80px;
     }
