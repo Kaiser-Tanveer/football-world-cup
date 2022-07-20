@@ -465,3 +465,45 @@ hr{
         display: flex;
     }
 }
+
+
+
+
+
+
+/* -------------------
+    Tablet Screen
+------------------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    
+header{
+    width: 90%;
+}
+
+.player-profile{
+    justify-content: center;
+}
+
+.player-details{
+    width: 50%;
+}
+
+.player-details h1{
+    font-size: 40px;
+}
+
+.player-details p{
+    font-size: 14px;
+}
+
+
+.player-banner{
+    width: 50%;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+}
