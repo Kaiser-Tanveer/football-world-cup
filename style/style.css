@@ -343,7 +343,7 @@ hr{
     width: 80%;
     margin: 20px auto;
     border-radius: 10px;
-    background-image: url(/images/top-banner.png);
+    background-image: url(top-banner.png);
     padding-bottom: 400px;
     background-position: right -5em top 250px;
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ main{
     
 header{
     max-width: 734px;
-    background-image: url(/images/top-banner.png);
+    background-image: url(top-banner.png);
     background-position: right -8em bottom -280px;
     background-repeat: no-repeat;
     background-size: cover;
