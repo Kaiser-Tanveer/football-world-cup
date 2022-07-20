@@ -245,9 +245,7 @@ header{
 .view-all{
     display: none;
     width: 100%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -505,11 +503,58 @@ header{
 
 .news-tray{
     width: 100%;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.nav-tray{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.tray{
+    width: 100%;
+    background-color: #ffffff;
+    margin: auto;
 }
 
 .inner-tray{
+    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin: auto;
 }
 
+.tray button{
+    margin-top: 50px;
+}
+
+.news{
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.news-card{
+    padding: 20px;
+}
+
+
+
+
+.view-all{
+    display: block;
+}
+
+.footer-container ul{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-container ul li{
+    padding: 20px;
+}
 }
