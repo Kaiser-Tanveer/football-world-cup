@@ -479,7 +479,7 @@ hr{
 
     
 header{
-    width: 90%;
+    width: 100%;
 }
 
 .player-profile{
@@ -501,9 +501,15 @@ header{
 
 .player-banner{
     width: 50%;
-    text-align: left;
-    align-items: flex-start;
-    justify-content: left;
+}
+
+.news-tray{
+    width: 100%;
+}
+
+.inner-tray{
+    display: flex;
+    justify-content: space-between;
 }
 
 }
