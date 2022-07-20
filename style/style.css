@@ -407,6 +407,7 @@ hr{
     }
 
     .ball{
+        display: none;
         transition: none;
     }
 
